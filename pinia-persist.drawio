@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T11:39:20.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="dWRubrdhSadXHEHyr2gG" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-14T11:45:49.588Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="FpnYeVrj_n3LpLWA_-S9" version="20.0.1" type="github">
   <diagram id="tAPsYgnPfxuxoNKkA7fT" name="Page-1">
     <mxGraphModel dx="1673" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="225" y="610" />
-              <mxPoint x="380" y="610" />
+              <mxPoint x="450" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -92,17 +92,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fiwIc4j6LlhLBmlPciXD-1" value="enabled?" style="rhombus;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+        <mxCell id="fiwIc4j6LlhLBmlPciXD-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;persist.enabled?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="480" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fiwIc4j6LlhLBmlPciXD-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fiwIc4j6LlhLBmlPciXD-3" target="fiwIc4j6LlhLBmlPciXD-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fiwIc4j6LlhLBmlPciXD-3" value="获取本地存储内容&lt;br&gt;getStorage()" style="whiteSpace=wrap;html=1;sketch=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="fiwIc4j6LlhLBmlPciXD-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;获取本地存储内容&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 217, 102);&quot;&gt;getStorage()&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;sketch=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="165" y="650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fiwIc4j6LlhLBmlPciXD-9" value="监听state变化时，把state存储起来" style="whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="650" width="120" height="60" as="geometry" />
+        <mxCell id="fiwIc4j6LlhLBmlPciXD-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;监听state,发生变化时把state存储起来&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 217, 102);&quot;&gt;setStorage()&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="650" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fiwIc4j6LlhLBmlPciXD-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fiwIc4j6LlhLBmlPciXD-12" target="fiwIc4j6LlhLBmlPciXD-14">
           <mxGeometry relative="1" as="geometry" />
@@ -115,13 +115,13 @@
         <mxCell id="fiwIc4j6LlhLBmlPciXD-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fiwIc4j6LlhLBmlPciXD-12" target="fiwIc4j6LlhLBmlPciXD-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fiwIc4j6LlhLBmlPciXD-12" value="本地存储是否有值？" style="rhombus;whiteSpace=wrap;html=1;sketch=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="fiwIc4j6LlhLBmlPciXD-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;本地存储是否有值？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="780" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fiwIc4j6LlhLBmlPciXD-14" value="用本地存储更新state&lt;br&gt;store.$patch()" style="whiteSpace=wrap;html=1;sketch=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="fiwIc4j6LlhLBmlPciXD-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;用本地存储的值更新state&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 217, 102);&quot;&gt;store.$patch()&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;sketch=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="165" y="950" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fiwIc4j6LlhLBmlPciXD-17" value="state设为本地存储&lt;br&gt;setStorage()" style="whiteSpace=wrap;html=1;sketch=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="fiwIc4j6LlhLBmlPciXD-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;state设为本地存储&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 217, 102);&quot;&gt;setStorage()&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;sketch=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="395" y="790" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
