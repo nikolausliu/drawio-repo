@@ -1,138 +1,132 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T02:41:19.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="JF9g1oeYTk3CHedlh-9B" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T02:54:14.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tEIXtuOdvmiM7k5C43lW" version="20.2.8" type="github">
   <diagram id="0aq3GvoXTkqNCICBaCr3" name="第 1 页">
-    <mxGraphModel dx="569" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" background="#D4E1F5" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PO-sIttTJYuamxAf0rOj-8" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=18;endArrow=none;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=none;startFill=0;endFill=0;rounded=1;" edge="1" parent="1" source="PO-sIttTJYuamxAf0rOj-3" target="PO-sIttTJYuamxAf0rOj-4">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-8" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=18;endArrow=none;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=none;startFill=0;endFill=0;rounded=1;sketch=1;elbow=vertical;curved=1;strokeColor=#FFD966;" parent="1" source="PO-sIttTJYuamxAf0rOj-3" target="PO-sIttTJYuamxAf0rOj-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-25" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;" edge="1" parent="1" source="PO-sIttTJYuamxAf0rOj-3" target="PO-sIttTJYuamxAf0rOj-9">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-25" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;sketch=1;elbow=vertical;curved=1;strokeColor=#FFD966;" parent="1" source="PO-sIttTJYuamxAf0rOj-3" target="PO-sIttTJYuamxAf0rOj-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-3" value="v8优化&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：1464MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：732MB&lt;br style=&quot;font-size: 18px;&quot;&gt;NodeV14：2GB" style="whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Lucida Console;fontSize=18;rounded=1;" vertex="1" parent="1">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-3" value="v8优化&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：1464MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：732MB&lt;br style=&quot;font-size: 18px;&quot;&gt;NodeV14：2GB" style="whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Lucida Console;fontSize=18;rounded=1;sketch=1;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="499" y="40" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-21" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;" edge="1" parent="1" source="PO-sIttTJYuamxAf0rOj-4" target="PO-sIttTJYuamxAf0rOj-20">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-21" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;sketch=1;elbow=vertical;curved=1;strokeColor=#FFD966;" parent="1" source="PO-sIttTJYuamxAf0rOj-4" target="PO-sIttTJYuamxAf0rOj-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-24" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;" edge="1" parent="1" source="PO-sIttTJYuamxAf0rOj-4">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-24" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;sketch=1;elbow=vertical;curved=1;strokeColor=#FFD966;" parent="1" source="PO-sIttTJYuamxAf0rOj-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="670" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-26" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;" edge="1" parent="1" source="PO-sIttTJYuamxAf0rOj-4" target="PO-sIttTJYuamxAf0rOj-12">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-26" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;sketch=1;elbow=vertical;curved=1;strokeColor=#FFD966;" parent="1" source="PO-sIttTJYuamxAf0rOj-4" target="PO-sIttTJYuamxAf0rOj-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-4" value="新生代&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：64MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：32MB" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-4" value="新生代&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：64MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：32MB" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="280" y="250" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-29" value="" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;" edge="1" parent="1" source="PO-sIttTJYuamxAf0rOj-9" target="PO-sIttTJYuamxAf0rOj-28">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-29" value="" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;sketch=1;elbow=vertical;curved=1;strokeColor=#FFD966;" parent="1" source="PO-sIttTJYuamxAf0rOj-9" target="PO-sIttTJYuamxAf0rOj-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-9" value="老生代&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：1000MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：700MB" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;strokeColor=#FFD966;rounded=1;" vertex="1" parent="1">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-9" value="老生代&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：1000MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：700MB" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;strokeColor=#FFD966;rounded=1;sketch=1;fillColor=#FFFFFF;fillStyle=solid;" parent="1" vertex="1">
           <mxGeometry x="850" y="250" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-15" value="" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;endArrow=none;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=none;startFill=0;endFill=0;rounded=1;" edge="1" parent="1" source="PO-sIttTJYuamxAf0rOj-12" target="PO-sIttTJYuamxAf0rOj-14">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-15" value="" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;endArrow=none;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=none;startFill=0;endFill=0;rounded=1;sketch=1;elbow=vertical;curved=1;strokeColor=#FFD966;" parent="1" source="PO-sIttTJYuamxAf0rOj-12" target="PO-sIttTJYuamxAf0rOj-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-17" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=18;endArrow=none;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=none;startFill=0;endFill=0;rounded=1;" edge="1" parent="1" source="PO-sIttTJYuamxAf0rOj-12" target="PO-sIttTJYuamxAf0rOj-16">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-17" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=18;endArrow=none;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=none;startFill=0;endFill=0;rounded=1;sketch=1;elbow=vertical;curved=1;strokeColor=#FFD966;" parent="1" source="PO-sIttTJYuamxAf0rOj-12" target="PO-sIttTJYuamxAf0rOj-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-12" value="两个区域&lt;br style=&quot;font-size: 18px;&quot;&gt;(等分)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-12" value="两个区域&lt;br style=&quot;font-size: 18px;&quot;&gt;(等分)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="360" y="413" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-14" value="Semi Space (From)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-14" value="Semi Space (From)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="270" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-16" value="Semi Space (From)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-16" value="Semi Space (From)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="430" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-20" value="如何进行？&lt;br style=&quot;font-size: 18px;&quot;&gt;(Scavenge算法)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-20" value="如何进行？&lt;br style=&quot;font-size: 18px;&quot;&gt;(Scavenge算法)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="50" y="413" width="165" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-23" value="并行回收策略&lt;br&gt;回收过程会全暂停JS的执行，所以使用多个辅助线程来降低这个事件" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-23" value="并行回收策略&lt;br&gt;回收过程会全暂停JS的执行，所以使用多个辅助线程来降低这个事件" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="580" y="413" width="160" height="137" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-31" value="" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;" edge="1" parent="1" source="PO-sIttTJYuamxAf0rOj-28" target="PO-sIttTJYuamxAf0rOj-30">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-31" value="" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;sketch=1;elbow=vertical;curved=1;strokeColor=#FFD966;" parent="1" source="PO-sIttTJYuamxAf0rOj-28" target="PO-sIttTJYuamxAf0rOj-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-28" value="标记清除&lt;br&gt;(Mark-Sweep)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;strokeColor=#FFD966;rounded=1;" vertex="1" parent="1">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-28" value="标记清除&lt;br&gt;(Mark-Sweep)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;strokeColor=#FFD966;rounded=1;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="383" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-33" value="" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;" edge="1" parent="1" source="PO-sIttTJYuamxAf0rOj-30" target="PO-sIttTJYuamxAf0rOj-32">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-33" value="" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;sketch=1;elbow=vertical;curved=1;strokeColor=#FFD966;" parent="1" source="PO-sIttTJYuamxAf0rOj-30" target="PO-sIttTJYuamxAf0rOj-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-34" value="优化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Lucida Console;rounded=1;" vertex="1" connectable="0" parent="PO-sIttTJYuamxAf0rOj-33">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-34" value="优化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Lucida Console;rounded=1;sketch=1;" parent="PO-sIttTJYuamxAf0rOj-33" vertex="1" connectable="0">
           <mxGeometry x="0.1042" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-30" value="清除后内存空间不连续" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-30" value="清除后内存空间不连续" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="865" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-36" value="" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;" edge="1" parent="1" source="PO-sIttTJYuamxAf0rOj-32" target="PO-sIttTJYuamxAf0rOj-35">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-36" value="" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;rounded=1;sketch=1;curved=1;strokeColor=#FFD966;" parent="1" source="PO-sIttTJYuamxAf0rOj-32" target="PO-sIttTJYuamxAf0rOj-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-32" value="标记整理&lt;br&gt;(Mark-Compact)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-32" value="标记整理&lt;br&gt;(Mark-Compact)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="840" y="630" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-35" value="增量标记" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
+        <mxCell id="PO-sIttTJYuamxAf0rOj-35" value="增量标记" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="480" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-37" value="v8优化&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：1464MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：732MB&lt;br style=&quot;font-size: 18px;&quot;&gt;NodeV14：2GB" style="whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Lucida Console;fontSize=18;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="499" y="40" width="170" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-38" value="新生代&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：64MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：32MB" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-10" value="新生代&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：64MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：32MB" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" vertex="1" parent="1">
           <mxGeometry x="280" y="250" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-39" value="v8优化&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：1464MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：732MB&lt;br style=&quot;font-size: 18px;&quot;&gt;NodeV14：2GB" style="whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Lucida Console;fontSize=18;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="499" y="40" width="170" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-40" value="新生代&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：64MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：32MB" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="250" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-41" value="v8优化&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：1464MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：732MB&lt;br style=&quot;font-size: 18px;&quot;&gt;NodeV14：2GB" style="whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Lucida Console;fontSize=18;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="499" y="40" width="170" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-42" value="新生代&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：64MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：32MB" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="250" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-43" value="Semi Space (From)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="550" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-44" value="两个区域&lt;br style=&quot;font-size: 18px;&quot;&gt;(等分)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="413" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-45" value="如何进行？&lt;br style=&quot;font-size: 18px;&quot;&gt;(Scavenge算法)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;" vertex="1" parent="1">
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-11" value="如何进行？&lt;br style=&quot;font-size: 18px;&quot;&gt;(Scavenge算法)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" vertex="1" parent="1">
           <mxGeometry x="50" y="413" width="165" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-46" value="v8优化&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：1464MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：732MB&lt;br style=&quot;font-size: 18px;&quot;&gt;NodeV14：2GB" style="whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Lucida Console;fontSize=18;strokeColor=#FFD966;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="499" y="40" width="170" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-47" value="新生代&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：64MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：32MB" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;strokeColor=#FFD966;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="250" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-48" value="如何进行？&lt;br style=&quot;font-size: 18px;&quot;&gt;(Scavenge算法)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;strokeColor=#FFD966;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="413" width="165" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-49" value="两个区域&lt;br style=&quot;font-size: 18px;&quot;&gt;(等分)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;strokeColor=#FFD966;rounded=1;" vertex="1" parent="1">
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-12" value="两个区域&lt;br style=&quot;font-size: 18px;&quot;&gt;(等分)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" vertex="1" parent="1">
           <mxGeometry x="360" y="413" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-50" value="Semi Space (From)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;strokeColor=#FFD966;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="550" width="120" height="60" as="geometry" />
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-14" value="新生代&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：64MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：32MB" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-51" value="Semi Space (From)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;strokeColor=#FFD966;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="550" width="120" height="60" as="geometry" />
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-15" value="如何进行？&lt;br style=&quot;font-size: 18px;&quot;&gt;(Scavenge算法)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="50" y="413" width="165" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-52" value="增量标记" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;strokeColor=#FFD966;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="780" width="120" height="60" as="geometry" />
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-16" value="两个区域&lt;br style=&quot;font-size: 18px;&quot;&gt;(等分)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="360" y="413" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-53" value="并行回收策略&lt;br&gt;回收过程会全暂停JS的执行，所以使用多个辅助线程来降低这个事件" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;strokeColor=#FFD966;rounded=1;" vertex="1" parent="1">
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-17" value="并行回收策略&lt;br&gt;回收过程会全暂停JS的执行，所以使用多个辅助线程来降低这个事件" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" vertex="1" parent="1">
           <mxGeometry x="580" y="413" width="160" height="137" as="geometry" />
         </mxCell>
-        <mxCell id="PO-sIttTJYuamxAf0rOj-54" value="标记整理&lt;br&gt;(Mark-Compact)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;strokeColor=#FFD966;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="630" width="170" height="60" as="geometry" />
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-18" value="Semi Space (From)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="270" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-20" value="增量标记" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="480" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-23" value="新生代&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：64MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：32MB" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-24" value="如何进行？&lt;br style=&quot;font-size: 18px;&quot;&gt;(Scavenge算法)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="50" y="413" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-25" value="两个区域&lt;br style=&quot;font-size: 18px;&quot;&gt;(等分)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="360" y="413" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-26" value="并行回收策略&lt;br&gt;回收过程会全暂停JS的执行，所以使用多个辅助线程来降低这个事件" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="580" y="413" width="160" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-27" value="Semi Space (From)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="270" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-29" value="增量标记" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="480" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-32" value="新生代&lt;br style=&quot;font-size: 18px;&quot;&gt;64位：64MB&lt;br style=&quot;font-size: 18px;&quot;&gt;32位：32MB" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="150" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
