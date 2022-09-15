@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T03:11:30.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4pGar8T0dAwBjzt4-KBK" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-15T03:48:47.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yNgQOxzZyW933VMq_zhH" version="20.3.0" type="github">
   <diagram id="0aq3GvoXTkqNCICBaCr3" name="第 1 页">
-    <mxGraphModel dx="2188" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" background="#D4E1F5" math="0" shadow="0">
+    <mxGraphModel dx="4138" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" background="#D4E1F5" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,6 +39,9 @@
         </mxCell>
         <mxCell id="PO-sIttTJYuamxAf0rOj-16" value="Semi Space (To)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="430" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-90" style="edgeStyle=orthogonalEdgeStyle;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFD966;fontSize=18;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="PO-sIttTJYuamxAf0rOj-20" target="2hUGISll8BHYj2xu90Tu-65">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PO-sIttTJYuamxAf0rOj-20" value="如何进行？&lt;br style=&quot;font-size: 18px;&quot;&gt;(Scavenge算法)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="50" y="413" width="165" height="60" as="geometry" />
@@ -102,20 +105,35 @@
         <mxCell id="2hUGISll8BHYj2xu90Tu-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4X2DJWtPw2BM1eevBTNo-26" target="2hUGISll8BHYj2xu90Tu-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4X2DJWtPw2BM1eevBTNo-26" value="全停顿(Stop the World)&lt;br&gt;&lt;br&gt;垃圾回收过程会全停顿JS的执行，如果垃圾回收耗时较长，会影响性能" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" parent="1" vertex="1">
+        <mxCell id="4X2DJWtPw2BM1eevBTNo-26" value="全停顿(Stop the World)&lt;br&gt;垃圾回收过程会全停顿JS的执行，如果垃圾回收耗时较长，会影响性能" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" parent="1" vertex="1">
           <mxGeometry x="570" y="413" width="250" height="117" as="geometry" />
         </mxCell>
         <mxCell id="4X2DJWtPw2BM1eevBTNo-27" value="Semi Space (From)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" parent="1" vertex="1">
           <mxGeometry x="270" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2hUGISll8BHYj2xu90Tu-23" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4X2DJWtPw2BM1eevBTNo-29" target="2hUGISll8BHYj2xu90Tu-22">
+        <mxCell id="2hUGISll8BHYj2xu90Tu-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4X2DJWtPw2BM1eevBTNo-29" target="2hUGISll8BHYj2xu90Tu-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2hUGISll8BHYj2xu90Tu-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4X2DJWtPw2BM1eevBTNo-29" target="2hUGISll8BHYj2xu90Tu-24">
+        <mxCell id="2hUGISll8BHYj2xu90Tu-50" value="为什么？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="2hUGISll8BHYj2xu90Tu-32">
+          <mxGeometry x="0.204" y="8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4X2DJWtPw2BM1eevBTNo-29" target="2hUGISll8BHYj2xu90Tu-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2hUGISll8BHYj2xu90Tu-27" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4X2DJWtPw2BM1eevBTNo-29" target="2hUGISll8BHYj2xu90Tu-26">
+        <mxCell id="2hUGISll8BHYj2xu90Tu-51" value="是什么？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="2hUGISll8BHYj2xu90Tu-33">
+          <mxGeometry x="0.1262" y="-2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4X2DJWtPw2BM1eevBTNo-29" target="2hUGISll8BHYj2xu90Tu-30">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-52" value="怎么做？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="2hUGISll8BHYj2xu90Tu-34">
+          <mxGeometry x="-0.1329" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="4X2DJWtPw2BM1eevBTNo-29" value="增量标记" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" parent="1" vertex="1">
           <mxGeometry x="730" y="830" width="120" height="60" as="geometry" />
@@ -135,23 +153,160 @@
         <mxCell id="2hUGISll8BHYj2xu90Tu-1" value="先整理再清除&lt;br&gt;因为整理的过程中活动对象会覆盖原本是垃圾的内存空间，省去了一部分清除的成本" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;" vertex="1" parent="1">
           <mxGeometry x="1110" y="445" width="150" height="150" as="geometry" />
         </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-62" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-11" target="2hUGISll8BHYj2xu90Tu-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2hUGISll8BHYj2xu90Tu-11" value="惰性清理" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;strokeColor=#FFD966;hachureGap=4;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="1115" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-64" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-14" target="2hUGISll8BHYj2xu90Tu-63">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2hUGISll8BHYj2xu90Tu-14" value="并发回收" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;strokeColor=#FFD966;hachureGap=4;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="1430" y="820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2hUGISll8BHYj2xu90Tu-16" value="并行回收&lt;br&gt;&lt;br&gt;开启多个辅助线程一起执行垃圾回收缩短全停顿的事件" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+        <mxCell id="2hUGISll8BHYj2xu90Tu-16" value="并行回收&lt;br&gt;开启多个辅助线程一起执行垃圾回收缩短全停顿的时间" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="570" y="600" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="2hUGISll8BHYj2xu90Tu-22" value="三色标记法" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
-          <mxGeometry x="620" y="970" width="120" height="60" as="geometry" />
+        <mxCell id="2hUGISll8BHYj2xu90Tu-22" value="&lt;font style=&quot;text-align: left;&quot; face=&quot;Lucida Console&quot;&gt;老生代对象内存占用大，全停顿耗时长&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="403" y="750" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2hUGISll8BHYj2xu90Tu-24" value="&lt;font face=&quot;Lucida Console&quot;&gt;为什么？&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Lucida Console&quot;&gt;老生代对象内存占用大，全停顿耗时长&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Lucida Console&quot;&gt;是什么？&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Lucida Console&quot;&gt;把原本一次较长的全停顿执行标记的过程，拆分为多次短暂的全停顿标记&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillStyle=solid;fontSize=18;fillColor=#FFD966;align=left;" vertex="1" parent="1">
-          <mxGeometry x="480" y="740" width="130" height="240" as="geometry" />
+        <mxCell id="2hUGISll8BHYj2xu90Tu-28" value="&lt;span style=&quot;text-align: left;&quot;&gt;把原本一次较长的全停顿执行标记的过程，拆分为多次短暂的全停顿标记&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="403" y="900" width="177" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="2hUGISll8BHYj2xu90Tu-26" value="写屏障" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
-          <mxGeometry x="840" y="970" width="120" height="60" as="geometry" />
+        <mxCell id="2hUGISll8BHYj2xu90Tu-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-30" target="2hUGISll8BHYj2xu90Tu-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-53" value="解决方案" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="2hUGISll8BHYj2xu90Tu-37">
+          <mxGeometry x="-0.0867" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-30" value="怎么做？&lt;br&gt;原本用黑白两色用来做标记，无法表示出上一次增量标记的工作进度" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="685" y="960" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-39" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-36" target="2hUGISll8BHYj2xu90Tu-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-49" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-36" target="2hUGISll8BHYj2xu90Tu-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-54" value="缺陷？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="2hUGISll8BHYj2xu90Tu-49">
+          <mxGeometry x="-0.0747" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-36" value="三色标记法" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-43" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-38" target="2hUGISll8BHYj2xu90Tu-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-45" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-38" target="2hUGISll8BHYj2xu90Tu-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-47" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-38" target="2hUGISll8BHYj2xu90Tu-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-38" value="怎么做？" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="403" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-40" value="白色&lt;br&gt;未被标记的对象" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1110" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-42" value="灰色&lt;br&gt;对象自身被标记，其引用的对象还未被标记" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1225" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-46" value="黑色&lt;br&gt;对象自身和对象引用的对象都被标记了" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1380" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-48" target="2hUGISll8BHYj2xu90Tu-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-57" value="解决方案" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="2hUGISll8BHYj2xu90Tu-56">
+          <mxGeometry x="-0.0834" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-48" value="在上一轮增量标记中被标记为黑色的对象，恢复JS执行后它的引用被覆盖为一个新的对象，此时新的对象是白色，会在下一轮垃圾回收中被错误的回收" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1250" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-55" target="2hUGISll8BHYj2xu90Tu-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-55" value="写屏障" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-58" value="强三色不变性&lt;br&gt;一旦有黑色引用白色，强制把这个白色改为灰色" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="695" y="1540" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-61" value="增量标记完成后，如果内存足够，则不需要立即清理，可以延迟清理。&#xa;也不需要一次性清理所有非活动对象的内存，可以按需逐一清理" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;strokeColor=#FFD966;hachureGap=4;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="970" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-63" value="主线程不暂停，使用辅助线程进行垃圾回收，需要额外实现读写锁机制" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;strokeColor=#FFD966;hachureGap=4;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="980" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-70" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.501;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-65" target="2hUGISll8BHYj2xu90Tu-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-65" value="新对象" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFD966;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="-325" y="413" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-69" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-66" target="2hUGISll8BHYj2xu90Tu-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-66" value="Semi Space&lt;br&gt;(From)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFD966;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="523" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-72" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-68" target="2hUGISll8BHYj2xu90Tu-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-68" value="&lt;div&gt;Semi Space(From)快满时&lt;/div&gt;&lt;div&gt;执行垃圾回收&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFD966;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="633" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-74" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-71" target="2hUGISll8BHYj2xu90Tu-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-75" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="2hUGISll8BHYj2xu90Tu-74">
+          <mxGeometry x="-0.1187" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-86" style="edgeStyle=orthogonalEdgeStyle;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-71" target="2hUGISll8BHYj2xu90Tu-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-87" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="2hUGISll8BHYj2xu90Tu-86">
+          <mxGeometry x="0.0835" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-71" value="是否经历过&#xa;Scavenge回收？" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;fillColor=#FFD966;strokeColor=#FFD966;hachureGap=4;rounded=1;sketch=1;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="778" width="250" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-80" style="edgeStyle=orthogonalEdgeStyle;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFD966;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-73" target="2hUGISll8BHYj2xu90Tu-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-82" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="2hUGISll8BHYj2xu90Tu-80">
+          <mxGeometry x="0.3769" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-95" style="edgeStyle=orthogonalEdgeStyle;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFD966;fontSize=18;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2hUGISll8BHYj2xu90Tu-73" target="2hUGISll8BHYj2xu90Tu-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-96" value="&lt;font color=&quot;#000000&quot;&gt;是&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="2hUGISll8BHYj2xu90Tu-95">
+          <mxGeometry x="-0.1002" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-73" value="Semi Space(To)&lt;br&gt;是否已经使用了25%?" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;fillColor=#FFD966;strokeColor=#FFD966;hachureGap=4;rounded=1;sketch=1;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="959" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-79" value="Semi Space&lt;br&gt;(To)" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFD966;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="523" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2hUGISll8BHYj2xu90Tu-88" value="晋升老生代" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Lucida Console;hachureGap=4;rounded=1;sketch=1;strokeColor=#FFD966;fillColor=#FFD966;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="-325" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
